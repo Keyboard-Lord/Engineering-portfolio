@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Tyler McRae — Systems Engineering</title>
+  <desc id="desc">Shedhouse Labs engineering portfolio banner</desc>
+
+  <style>
+    .bg { fill: #ffffff; }
+    .grid { stroke: #d8dee4; stroke-width: 1; opacity: .72; }
+    .line { stroke: #afb8c1; stroke-width: 1.5; fill: none; }
+    .accent { stroke: #0969da; stroke-width: 2; fill: none; }
+    .accentFill { fill: #0969da; }
+    .main {
+      fill: #1f2328;
+      font: 700 54px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 4px;
+    }
+    .sub {
+      fill: #57606a;
+      font: 500 19px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 3px;
+    }
+    .tiny {
+      fill: #6e7781;
+      font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="340"/>
+
+  <g opacity=".45">
+    <path class="grid" d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200M0 320H1200"/>
+    <path class="grid" d="M40 0V340M80 0V340M120 0V340M160 0V340M200 0V340M240 0V340M280 0V340M320 0V340M360 0V340M400 0V340M440 0V340M480 0V340M520 0V340M560 0V340M600 0V340M640 0V340M680 0V340M720 0V340M760 0V340M800 0V340M840 0V340M880 0V340M920 0V340M960 0V340M1000 0V340M1040 0V340M1080 0V340M1120 0V340M1160 0V340"/>
+  </g>
+
+  <g transform="translate(925 170)">
+    <circle class="line" r="104"/>
+    <circle class="line" r="72"/>
+    <circle class="accent" r="41"/>
+    <path class="line" d="M-132 0H132M0-132V132"/>
+    <path class="line" d="M-74-74L74 74M74-74L-74 74"/>
+    <path class="accent" d="M0-104L41 0L0 104L-41 0Z"/>
+    <circle class="accentFill" r="5"/>
+  </g>
+
+  <path class="accent" d="M74 72H220"/>
+  <circle class="accentFill" cx="68" cy="72" r="4"/>
+
+  <text class="tiny" x="74" y="58">SHEDHOUSE LABS // ENGINEERING PORTFOLIO</text>
+  <text class="main" x="72" y="150">TYLER MCRAE</text>
+  <text class="sub" x="75" y="194">SYSTEMS · EMBEDDED · SOFTWARE · COMPUTE</text>
+
+  <path class="line" d="M74 235H690"/>
+  <text class="tiny" x="74" y="269">BUILD → BREAK → OBSERVE → UNDERSTAND → REBUILD</text>
+  <text class="tiny" x="74" y="299">SYSTEM ARCHITECTURE / INTEGRATION / VALIDATION</text>
+</svg>
