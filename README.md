@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Tyler McRae — Systems Engineering, Embedded Systems, Software and Compute" src="./assets/hero-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg">
+  <img alt="Tyler McRae — Systems Engineering, Embedded Systems, Software and Compute" src="./hero-light.svg" width="100%">
 </picture>
 
 <div align="center">
